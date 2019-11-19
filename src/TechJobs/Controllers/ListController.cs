@@ -7,6 +7,7 @@ namespace TechJobs.Controllers
 {
     public class ListController : Controller
     {
+        //WHY INTERNAL????
         internal static Dictionary<string, string> columnChoices = new Dictionary<string, string>();
 
         // This is a "static constructor" which can be used
